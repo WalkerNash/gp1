@@ -39,6 +39,8 @@
   text-align: right;
   padding-top: 25px;
   padding-right: 10px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .img {
@@ -52,7 +54,7 @@ body, html {
 }
 
 .bgimg {
-  background-image: url("http://allhdwallpapers.com/wp-content/uploads/2015/06/Cave-9.jpg");
+  background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-440766.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
