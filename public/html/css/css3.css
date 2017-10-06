@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .btn-header {
@@ -45,7 +45,7 @@
 
 .p3-art {
   position: relative;
-  top: 80px;
+  padding-top: 40px;
   padding-bottom: 40px;
   width: 100%;
 }
@@ -63,10 +63,10 @@
 }
 
 .left-vol img {
-  position: absolute;
+  position: fixed;
   width: 19%;
   margin: 0 auto;
-  top: 0;
+  top: 120px;
 }
 
 .right-vol {
@@ -78,9 +78,22 @@
 .right-vol h3 {
   position: relative;
   left: 20px;
+  width: 300px;
 }
 
 .right-vol h4 {
   position: relative;
   left: 40px;
+}
+
+h4 a {
+  text-decoration: none;
+}
+
+.right-vol:nth-child(2n+0) * {
+  background-color: rgba(0, 230, 230, 1);
+}
+
+.right-vol:nth-child(2n+1) * {
+  background-color: rgba(230, 230, 0, 1);
 }
