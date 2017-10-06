@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  /*height: 100%;*/
+  /*background-color: rgba(0, 0, 0, 0.1);*/
+}
+
+@font-face {
+font-family: "munro";
+src: url("fonts/munro_narrow.ttf") format("truetype");
+src: url("fonts/munro_narrow-webfont.woff") format("woff");
+src: url("fonts/munro_narrow-webfont.woff2") format("woff2");
+font-weight: normal;
+font-style: normal;
+}
+
+html {
+  height: 1000px;
+}
+
+p {
+  font-family: "munro", sans-serif;
+}
+
+body {
+  min-height: 100%;
+  background: url('../img/8-bbg.png') no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-header {
+  position: fixed;
+  display: block;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  background-color: gray;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.btn-break {
+  width: 100vw;
+}
+
+.left {
+ float: left;
+}
+
+.right {
+  float: right;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  text-align: right;
+  padding-top: 25px;
+  padding-right: 10px;
+  border: solid 1px white;
+  border-radius: 7px;
+  box-shadow: 2px 0 #e7dfe7,
+              0 -2px #e7dfe7,
+              2px -1px #e7dfe7,
+              0 0 #e7dfe7,
+              1px -2px #9c9a9c,
+              0 -2px #7b757b,
+              1px 1px #424542;
+  background: linear-gradient(to bottom,  #04009d 0%,#06004d 100%);
+  font-family: munro;
+
+
+}
+
+div.ff7{
+  border: solid 1px #424542;
+  box-shadow: 1px 1px #e7dfe7,
+              -1px -1px #e7dfe7,
+              1px -1px #e7dfe7,
+              -1px 1px #e7dfe7,
+              0 -2px #9c9a9c,
+              -2px 0 #7b757b,
+              0 2px #424542;
+  width: 500px;
+  padding: 5px 10px;
+  margin: 50px 50px;
+  background: linear-gradient(to bottom,  #04009d 0%,#06004d 100%);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  color: white;
+  font-family: munro;
+
+}
+div.ff7 *{
+  color: white;
+  text-shadow: 2px 2px #212421,
+               1px 1px #212021;
+  font-family: munro;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 5px 0;
+}
+
+/*.bgimg {
+  position: fixed;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}*/
