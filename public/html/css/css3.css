@@ -6,6 +6,7 @@
 .btn-header {
   position: fixed;
   display: block;
+  z-index: 999;
 }
 
 .btn {
@@ -45,6 +46,7 @@
 .p3-art {
   position: relative;
   top: 80px;
+  padding-bottom: 40px;
   width: 100%;
 }
 
@@ -60,12 +62,25 @@
   width: 19%;
 }
 
+.left-vol img {
+  position: absolute;
+  width: 19%;
+  margin: 0 auto;
+  top: 0;
+}
+
 .right-vol {
   right: 0;
   width: 79%;
+  margin-left: 19%;
 }
 
-.right-vol * {
+.right-vol h3 {
   position: relative;
   left: 20px;
+}
+
+.right-vol h4 {
+  position: relative;
+  left: 40px;
 }
