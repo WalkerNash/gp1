@@ -52,10 +52,22 @@ body, html {
 }
 
 .bgimg {
-  background-image: url("https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA20355-1024x768.jpg");
+  background-image: url("http://allhdwallpapers.com/wp-content/uploads/2015/06/Cave-9.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.8;
+}
+
+.brokedevsbreak {
+  height: 100px;
+  width: 100%;
+}
+
+.brokedevs {
+  width: 480px;
+  margin: auto;
+  text-align: left;
+  color: white;
+  background-color: black;
 }
