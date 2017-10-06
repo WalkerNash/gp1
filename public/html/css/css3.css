@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn-header {
+  position: fixed;
+  display: block;
+}
+
+.btn {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.btn-break {
+  width: 100vw;
+}
+
+.left {
+ float: left;
+}
+
+.right {
+  float: right;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  text-align: right;
+  padding-top: 25px;
+  padding-right: 10px;
+}
+
+.p3-art {
+  position: relative;
+  top: 80px;
+}
