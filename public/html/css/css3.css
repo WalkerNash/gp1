@@ -45,4 +45,27 @@
 .p3-art {
   position: relative;
   top: 80px;
+  width: 100%;
+}
+
+.p3-art, .p3-art * {
+  background: rgba(230, 230, 230, 1);
+}
+.p3-art > * {
+  display: inline-block;
+}
+
+.left-vol {
+  left: 0;
+  width: 19%;
+}
+
+.right-vol {
+  right: 0;
+  width: 79%;
+}
+
+.right-vol * {
+  position: relative;
+  left: 20px;
 }
