@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  background-color: rbga(0, 0, 0, 0.1);
 }
 
 .btn-header {
@@ -40,4 +39,37 @@
   text-align: right;
   padding-top: 25px;
   padding-right: 10px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.img {
+  height: 100vh;
+  width: 100%;
+
+}
+
+body, html {
+    height: 100%;
+}
+
+.bgimg {
+  background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-440766.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brokedevsbreak {
+  height: 100px;
+  width: 100%;
+}
+
+.brokedevs {
+  width: 480px;
+  margin: auto;
+  text-align: left;
+  color: white;
+  background-color: black;
 }
