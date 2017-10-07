@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 1);
 }
 
 .btn-header {
@@ -78,7 +77,6 @@
 .right-vol h3 {
   position: relative;
   left: 20px;
-  width: 300px;
 }
 
 .right-vol h4 {
@@ -90,10 +88,14 @@ h4 a {
   text-decoration: none;
 }
 
-.right-vol:nth-child(2n+0) * {
+.left-vol {
+  background-color: rgba(0, 210, 210, 1);
+}
+
+.right-vol {
   background-color: rgba(0, 230, 230, 1);
 }
 
-.right-vol:nth-child(2n+1) * {
-  background-color: rgba(230, 230, 0, 1);
+.right-vol * {
+  background-color: rgba(0, 230, 230, 0);
 }
