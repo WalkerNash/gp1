@@ -53,17 +53,21 @@
 
 table {
   width: 100%;
+  font-family: sans-serif;
 }
 
 .left-vol {
   margin: 0 auto;
   padding: 0;
   width: 20%;
+  vertical-align: top;
+  text-align: center;
 }
 
 .left-vol img {
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
 .right-vol {
@@ -89,9 +93,16 @@ h4 a {
 }
 
 .right-vol {
-  background-color: rgba(0, 230, 230, 1);
+  background-color: rgba(0, 200, 200, 1);
 }
 
-.right-vol * {
-  background-color: rgba(0, 230, 230, 0);
+table tr td h3 {
+  width: 90%;
+  box-shadow: 4px 4px 4px 0;
+  background-color: rgba(80, 240, 240, 1);
+}
+table tr td h4 {
+  width: 80%;
+  box-shadow: 4px 4px 4px 0;
+  background-color: rgba(160, 240, 100, 1);
 }
