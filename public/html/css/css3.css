@@ -193,3 +193,41 @@ table tr td h4 {
   height: 64px;
   margin-left: 20px;
 }
+
+table tr td a h4:hover {
+  animation-name: hit;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes hit {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+table tr td a h4:active {
+  animation-name: act;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes act {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(45deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
