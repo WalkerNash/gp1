@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  animation: brokefadein 2s ease-in;
 }
 
 .btn-header {
@@ -15,6 +16,13 @@
   text-decoration: none;
   text-align: center;
   padding-top: 15px;
+  font-family: 'Saira Condensed', sans-serif;
+  opacity: 1;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
 }
 
 .btn-break {
@@ -23,10 +31,12 @@
 
 .left {
  float: left;
+ border-bottom-right-radius: 0.5em;
 }
 
 .right {
   float: right;
+  border-bottom-left-radius: 0.5em;
 }
 
 .footer {
@@ -39,7 +49,8 @@
   text-align: right;
   padding-top: 25px;
   padding-right: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Saira Condensed', sans-serif;
+
 
 }
 
@@ -54,7 +65,7 @@ body, html {
 }
 
 .bgimg {
-  background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-440766.jpg");
+  background-image: url("../img/bgimg_index.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -67,9 +78,24 @@ body, html {
 }
 
 .brokedevs {
-  width: 480px;
-  margin: auto;
+  width: 400px;
+  margin: 50px;
   text-align: left;
   color: white;
-  background-color: black;
+  text-shadow: 1px 1px 1px #000;
+  font-family: 'Crimson Text', serif;
+  font-size: large;
+
+}
+
+.h1 {
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+@keyframes brokefadein {
+  0% {opacity: 0;}
+  25% {opacity: 0.25;}
+  75% {opacity: 0.75;}
+  100% {opacity: 1;}
+
 }
