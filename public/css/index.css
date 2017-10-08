@@ -18,16 +18,23 @@
   font-family: 'Saira Condensed', sans-serif;
 }
 
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
 .btn-break {
   width: 100vw;
 }
 
 .left {
  float: left;
+ border-bottom-right-radius: 0.5em;
 }
 
 .right {
   float: right;
+  border-bottom-left-radius: 0.5em;
 }
 
 .footer {
