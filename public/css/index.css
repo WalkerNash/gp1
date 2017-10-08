@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  animation: brokefadein 2s ease-in;
 }
 
 .btn-header {
@@ -16,6 +17,7 @@
   text-align: center;
   padding-top: 15px;
   font-family: 'Saira Condensed', sans-serif;
+  opacity: 1;
 }
 
 .btn:hover {
@@ -83,8 +85,17 @@ body, html {
   text-shadow: 1px 1px 1px #000;
   font-family: 'Crimson Text', serif;
   font-size: large;
+
 }
 
 .h1 {
   font-family: 'Saira Condensed', sans-serif;
+}
+
+@keyframes brokefadein {
+  0% {opacity: 0;}
+  25% {opacity: 0.25;}
+  75% {opacity: 0.75;}
+  100% {opacity: 1;}
+
 }
