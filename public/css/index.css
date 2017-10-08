@@ -56,7 +56,7 @@ body, html {
 }
 
 .bgimg {
-  background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-440766.jpg");
+  background-image: url("../img/bgimg_index.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
