@@ -88,7 +88,7 @@ table {
   left: 40px;
 }
 
-h4 a {
+a {
   text-decoration: none;
 }
 
@@ -98,16 +98,70 @@ h4 a {
 
 .right-vol {
   background-color: rgba(0, 200, 200, 1);
+  background: linear-gradient(135deg, rgba(0, 200, 200, 1), white);
 }
 
 .art-title {
   margin-top: 60px;
   width: 100%;
-  text-align: center;
+  text-align: left;
   font-size: 60px;
   font-family: cursive;
   font-weight: bold;
+  padding-left: 0;
   color: red;
+}
+
+.art-title  {
+  width: 256px;
+  animation: help 5s steps(20) infinite;
+}
+
+@keyframes help {
+  0% {
+    margin-left: 0;
+    transform: rotate(0deg);
+  }
+  4% {
+    margin-left: 0;
+    transform: rotate(45deg);
+  }
+  8% {
+    margin-left: 0;
+    transform: rotate(0deg);
+  }
+  12% {
+    margin-left: 0;
+    transform: rotate(-45deg);
+  }
+  16% {
+    margin-left: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    margin-left: 50%;
+    transform: rotate(0deg);
+  }
+  84% {
+    margin-left: 0;
+    transform: rotate(0deg);
+  }
+  88% {
+    margin-left: 0;
+    transform: rotate(45deg);
+  }
+  92% {
+    margin-left: 0;
+    transform: rotate(0deg);
+  }
+  96% {
+    left: 0;
+    transform: rotate(-45deg);
+  }
+  100% {
+    padding-left: 0;
+    transform: rotate(0deg);
+  }
 }
 
 table tr td h3 {
@@ -117,6 +171,7 @@ table tr td h3 {
   background-color: rgba(80, 240, 240, 1);
   margin: 40px 0;
   padding: 10px 0;
+  padding-left: 30px;
 }
 
 table tr td h4 {
@@ -126,4 +181,15 @@ table tr td h4 {
   background-color: rgba(160, 240, 100, 1);
   margin: 30px 0;
   padding: 10px 0;
+  padding-left: 30px;
+}
+
+.itm-cion {
+  width: 5%;
+}
+
+.itm-cion img {
+  width: 64px;
+  height: 64px;
+  margin-left: 20px;
 }
