@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
+
   background-color: rgba(0, 0, 0, 0.1);
+
+  animation: brokefadein 2s ease-in;
+
 }
 
 .btn-header {
@@ -16,6 +20,13 @@
   text-decoration: none;
   text-align: center;
   padding-top: 15px;
+  font-family: 'Saira Condensed', sans-serif;
+  opacity: 1;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
 }
 
 .btn-break {
@@ -24,10 +35,12 @@
 
 .left {
  float: left;
+ border-bottom-right-radius: 0.5em;
 }
 
 .right {
   float: right;
+  border-bottom-left-radius: 0.5em;
 }
 
 .footer {
@@ -40,4 +53,53 @@
   text-align: right;
   padding-top: 25px;
   padding-right: 10px;
+  font-family: 'Saira Condensed', sans-serif;
+
+
+}
+
+.img {
+  height: 100vh;
+  width: 100%;
+
+}
+
+body, html {
+    height: 100%;
+}
+
+.bgimg {
+  background-image: url("../img/bgimg_index.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.brokedevsbreak {
+  height: 100px;
+  width: 100%;
+}
+
+.brokedevs {
+  width: 400px;
+  margin: 50px;
+  text-align: left;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  font-family: 'Crimson Text', serif;
+  font-size: large;
+
+}
+
+.h1 {
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+@keyframes brokefadein {
+  0% {opacity: 0;}
+  25% {opacity: 0.25;}
+  75% {opacity: 0.75;}
+  100% {opacity: 1;}
+
 }
