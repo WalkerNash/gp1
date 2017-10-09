@@ -56,6 +56,24 @@ body {
   float: right;
 }
 
+.nme {
+  display: block;
+  position: fixed;
+  width: 500px;
+  height: 300px;
+  bottom: 100px;
+  left: 50px;
+}
+
+.team {
+  display: block;
+  position: fixed;
+  width: 1200px;
+  height: 100px;
+  bottom: 200px;
+  right: -70vw;
+}
+
 .footer {
   height: 50px;
   width: 100%;
