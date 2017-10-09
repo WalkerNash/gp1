@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
+
+  background-color: rgba(0, 0, 0, 0.1);
+
   animation: brokefadein 2s ease-in;
+
 }
 
 .btn-header {
