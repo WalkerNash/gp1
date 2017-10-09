@@ -5,12 +5,12 @@
 }
 
 @font-face {
-font-family: "munro";
-src: url("fonts/munro_narrow.ttf") format("truetype");
-src: url("fonts/munro_narrow-webfont.woff") format("woff");
-src: url("fonts/munro_narrow-webfont.woff2") format("woff2");
-font-weight: normal;
-font-style: normal;
+  font-family: "munro";
+  src: url("fonts/munro_narrow.ttf") format("truetype");
+  src: url("fonts/munro_narrow-webfont.woff") format("woff");
+  src: url("fonts/munro_narrow-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
@@ -49,7 +49,7 @@ body {
 }
 
 .left {
- float: left;
+  float: left;
 }
 
 .right {
@@ -85,32 +85,18 @@ body {
   padding-right: 10px;
   border: solid 1px white;
   border-radius: 7px;
-  box-shadow: 2px 0 #e7dfe7,
-              0 -2px #e7dfe7,
-              2px -1px #e7dfe7,
-              0 0 #e7dfe7,
-              1px -2px #9c9a9c,
-              0 -2px #7b757b,
-              1px 1px #424542;
-  background: linear-gradient(to bottom,  #04009d 0%,#06004d 100%);
+  box-shadow: 2px 0 #e7dfe7, 0 -2px #e7dfe7, 2px -1px #e7dfe7, 0 0 #e7dfe7, 1px -2px #9c9a9c, 0 -2px #7b757b, 1px 1px #424542;
+  background: linear-gradient(to bottom, #04009d 0%, #06004d 100%);
   font-family: munro;
-
-
 }
 
-div.ff7{
+div.ff7 {
   border: solid 1px #424542;
-  box-shadow: 1px 1px #e7dfe7,
-              -1px -1px #e7dfe7,
-              1px -1px #e7dfe7,
-              -1px 1px #e7dfe7,
-              0 -2px #9c9a9c,
-              -2px 0 #7b757b,
-              0 2px #424542;
+  box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7, -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
   height: 150px;
   width: 45vw;
   padding: 5px 10px;
-  background: linear-gradient(to bottom,  #04009d 0%,#06004d 100%);
+  background: linear-gradient(to bottom, #04009d 0%, #06004d 100%);
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
@@ -121,7 +107,6 @@ div.ff7{
   bottom: 55px;
   left: 3px;
   z-index: 1;
-
 }
 
 .col2 {
@@ -136,19 +121,13 @@ div.ff7{
   right: 30vw;
 }
 
-div.ff72{
+div.ff72 {
   border: solid 1px #424542;
-  box-shadow: 1px 1px #e7dfe7,
-              -1px -1px #e7dfe7,
-              1px -1px #e7dfe7,
-              -1px 1px #e7dfe7,
-              0 -2px #9c9a9c,
-              -2px 0 #7b757b,
-              0 2px #424542;
+  box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7, -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
   height: 150px;
   width: 54.25vw;
   padding: 5px 10px;
-  background: linear-gradient(to bottom,  #04009d 0%,#06004d 100%);
+  background: linear-gradient(to bottom, #04009d 0%, #06004d 100%);
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
@@ -157,22 +136,15 @@ div.ff72{
   position: fixed;
   bottom: 55px;
   right: 3px;
-
 }
 
-div.ff73{
+div.ff73 {
   border: solid 1px #424542;
-  box-shadow: 1px 1px #e7dfe7,
-              -1px -1px #e7dfe7,
-              1px -1px #e7dfe7,
-              -1px 1px #e7dfe7,
-              0 -2px #9c9a9c,
-              -2px 0 #7b757b,
-              0 2px #424542;
+  box-shadow: 1px 1px #e7dfe7, -1px -1px #e7dfe7, 1px -1px #e7dfe7, -1px 1px #e7dfe7, 0 -2px #9c9a9c, -2px 0 #7b757b, 0 2px #424542;
   height: 150px;
   width: 500px;
   padding: 5px 10px;
-  background: linear-gradient(to bottom,  #04009d 0%,#06004d 100%);
+  background: linear-gradient(to bottom, #04009d 0%, #06004d 100%);
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
@@ -184,12 +156,11 @@ div.ff73{
   left: 10.5vw;
   z-index: 2;
   text-align: right;
-
 }
-div.ff7 *{
+
+div.ff7 * {
   color: white;
-  text-shadow: 2px 2px #212421,
-               1px 1px #212021;
+  text-shadow: 2px 2px #212421, 1px 1px #212021;
   font-family: munro;
   font-weight: normal;
   margin: 5px 0;
